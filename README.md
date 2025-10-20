@@ -27,8 +27,7 @@ My complete e-portfolio submission, including the 1500-word evidence portfolio a
 The agent is designed to run in Google Colab.
 
 1.  **Open the Notebook:** Click the link below to open the main project notebook.
-    * **[Link to your `main_forensics_notebook.ipynb` file in this repository]**
-    * *(Note: You'll need to upload this file to your repo and link to it)*
+    * https://github.com/MoP16/ml-july-2025-a-eportfolio/blob/main/main_forensics_notebook.ipynb
 2.  **Mount Drive:** Run the first cell to mount your Google Drive.
 3.  **Run the Agent:** Run the final cell, which contains the complete end-to-end workflow, to see the agent in action.
 
@@ -39,10 +38,10 @@ The agent is designed to run in Google Colab.
 The agent's design was based on the group project from Unit 6.
 
 * **UML Class Diagram:** This shows the static structure and modular design of the agent.
-    ![UML Diagram](./evidence/uml_diagram.png)
+    ![UML Diagram](./evidence/11-UML%20Diagram.png)
 
 * **Sequence Diagram:** This shows the dynamic, step-by-step workflow the agent follows.
-    ![Sequence Diagram](./evidence/sequence_diagram.png)
+    ![Sequence Diagram](./evidence/12-Sequence%20Diagram.png)
 
 ---
 
@@ -52,19 +51,19 @@ The agent's design was based on the group project from Unit 6.
 
 This screenshot shows the terminal output from a complete, successful run of the agent, demonstrating that all modules (`Scanner`, `Archiver`, `Logger`, `Transmitter`) are working correctly.
 
-![Successful Run Output](./evidence/demo_run_output.png)
+![Successful Run Output](./evidence/20-Final%20Output.png)
 
 ### Formal Unit Testing
 
 To ensure the integrity of the most critical function (`calculate_hash`), a formal unit test was written. The "OK" status confirms the function is mathematically correct.
 
-![Unit Test OK](./evidence/unit_test_ok.png)
+![Unit Test OK](./evidence/28-unit%20test.png)
 
 ### Audit Trail Evidence
 
 The successful run generates a `forensic_log.csv` file, providing a complete, timestamped audit trail for the chain of custody.
 
-![Log File Output](./evidence/log_file_output.png)
+![Log File Output](./evidence/29-forensic%20log.png)
 
 ---
 
@@ -72,6 +71,5 @@ The successful run generates a `forensic_log.csv` file, providing a complete, ti
 
 * **`README.md`**: This main guide.
 * **`E_PORTFOLIO.md`**: The full 2500-word written assignment.
-* **`/code/`**: Contains all functional Python source code and the main Colab notebook.
-* **`/documentation/`**: Contains the original Unit 6 Group Report PDF.
+* **`main_forensics_notebook.ipynb`**: Contains all functional Python source code and the main Colab notebook.
 * **`/evidence/`**: Contains all screenshots of code, output, and diagrams used in this portfolio.
